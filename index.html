@@ -10,5 +10,106 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+          <ul>
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Прогноз</a></li>
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Контакты</a></li>
+          </ul>
+      </nav>
+      <div class="logo">
+          <h1>Прогноз погоды</h1>
+      </div>
+  </header>
+
+  <main>
+      <section class="hero">
+          <h2>Узнайте погоду в вашем городе</h2>
+          <form action="#" method="get">
+              <label for="city">Введите город:</label>
+              <input type="text" id="city" name="city" placeholder="Например, Москва">
+              <button type="submit">Показать погоду</button>
+          </form>
+      </section>
+
+      <section class="current-weather">
+          <h2>Текущая погода</h2>
+          <article class="weather-info">
+              <h3>Москва</h3>
+              <p class="temperature">Температура: <span>5°C</span></p>
+              <p class="description">Облачность: <span>Переменная облачность</span></p>
+              <p class="wind">Ветер: <span>5 м/с, северо-запад</span></p>
+              <p class="humidity">Влажность: <span>70%</span></p>
+          </article>
+      </section>
+
+      <section class="forecast">
+          <h2>Прогноз на ближайшие 5 дней</h2>
+          <div class="forecast-cards">
+              <article class="forecast-card">
+                  <h3>Понедельник</h3>
+                  <p class="temp">10°C</p>
+                  <p class="description">Облачно с прояснениями</p>
+              </article>
+              <article class="forecast-card">
+                  <h3>Вторник</h3>
+                  <p class="temp">8°C</p>
+                  <p class="description">Дождь</p>
+              </article>
+              <article class="forecast-card">
+                  <h3>Среда</h3>
+                  <p class="temp">9°C</p>
+                  <p class="description">Переменная облачность</p>
+              </article>
+              <article class="forecast-card">
+                  <h3>Четверг</h3>
+                  <p class="temp">12°C</p>
+                  <p class="description">Ясно</p>
+              </article>
+              <article class="forecast-card">
+                  <h3>Пятница</h3>
+                  <p class="temp">11°C</p>
+                  <p class="description">Облачно</p>
+              </article>
+          </div>
+      </section>
+
+      <section class="weather-details">
+          <h2>Дополнительные данные</h2>
+          <ul>
+              <li>Давление: <span>1015 гПа</span></li>
+              <li>Скорость ветра: <span>5 м/с</span></li>
+              <li>Видимость: <span>10 км</span></li>
+          </ul>
+      </section>
+  </main>
+
+  <footer>
+      <section class="contact-info">
+          <h2>Контакты</h2>
+          <address>
+              <p>...</p>
+              <p>Email: <a href="mailto:info@weather.com">info@weather.com</a></p>
+              <p>...</p>
+          </address>
+      </section>
+
+      <section class="social-media">
+          <h2>Следите за нами в социальных сетях</h2>
+          <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+          </ul>
+      </section>
+
+      <section class="about-us">
+          <h2>О нас</h2>
+          <p>...</p>
+      </section>
+  </footer>
+  </body>
 </html>
